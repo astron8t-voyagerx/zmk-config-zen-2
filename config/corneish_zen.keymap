@@ -81,13 +81,13 @@
             >;
         };
 
-        layer_3 {
-            display-name = "Fn";
+        symbol_layer {
+            display-name = "SYMBOL";
             bindings = <
-&trans  &kp F1      &kp F2  &kp F3  &kp F4      &kp F5         &kp F6       &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
-&trans  &bt BT_CLR  &trans  &trans  &sys_reset  &bootloader    &bootloader  &trans  &trans  &trans  &kp PRINTSCREEN  &kp F12
-&trans  &trans      &trans  &trans  &trans      &trans         &trans       &trans  &trans  &trans  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                            &trans  &trans      &trans         &trans       &trans  &trans
+&trans  &none          &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)    &kp F12  &kp F7  &kp F8  &kp F9  &kp F15  &to 0
+&trans  &none          &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &none               &kp F11  &kp F4  &kp F5  &kp F6  &kp F14  &none
+&trans  &kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &none               &kp F10  &kp F1  &kp F2  &kp F3  &kp F13  &none
+                                         &trans            &trans            &none               &trans   &trans  &trans
             >;
         };
     };
